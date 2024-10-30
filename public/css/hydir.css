@@ -1,0 +1,94 @@
+.type-person {
+  background: none;
+  width: 99%;
+}
+
+.type-directory {
+  min-height: 580px;
+}
+
+.program-archive {
+  min-height: 1000px;
+  margin-top: 0px !important;
+  margin-bottom: 0px;
+  padding-top: 0px !important;
+  padding-left: 10px !important;
+}
+
+.prog-list-title {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* group */
+.hydir-status {
+  margin-bottom: 10px;
+}
+
+/* columns */
+.hydir-columns-text,
+.hydir-column-text {
+  margin-bottom: 0;
+}
+
+/*list entry*/
+.hydir-list-entry {
+  display: flex;
+  align-items: center;
+}
+
+.hydir-list-img {
+  margin-right: 20px;
+}
+
+.hydir-list-entry h4 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.hydir-list-img img {
+  max-width: unset;
+  width: 250px;
+  height: 250px;
+}
+
+@media screen and (max-width: 650px) {
+  .hydir-list-entry {
+    flex-direction: column;
+  }
+  .hydir-list-img img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/*text entry*/
+.hydir-text-entry p {
+  margin-bottom: 0px;
+}
+
+/* entry content */
+.hydir-entry-content .hydir-single-img {
+  margin-right: 20px;
+}
+
+.hydir-entry .buttons {
+  width: fit-content;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hydir-entry .buttons {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
